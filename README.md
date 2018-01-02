@@ -25,9 +25,9 @@
 #### CocoaPods
 You need use [CocoaPods](http://cocoapods.org/) to install library
 
-open project folder on terminal and run:
-pod install
-after install open PhotoZigChallenge.xcworkspace 
+- open project folder on terminal and run:
+- pod install
+- after install open PhotoZigChallenge.xcworkspace 
 
 ## Meta
 
