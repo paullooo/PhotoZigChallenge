@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A84FC721FFB0FD000ADBC3C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84FC711FFB0FD000ADBC3C /* DetailViewController.swift */; };
+		3A84FC741FFB0FE200ADBC3C /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84FC731FFB0FE200ADBC3C /* PageViewController.swift */; };
+		3A84FC781FFB15F600ADBC3C /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84FC771FFB15F600ADBC3C /* ResponseType.swift */; };
+		3A84FC7A1FFB163300ADBC3C /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84FC791FFB163300ADBC3C /* Assets.swift */; };
+		3A84FC7C1FFB164400ADBC3C /* AssetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84FC7B1FFB164400ADBC3C /* AssetViewModel.swift */; };
+		3A84FC7E1FFB169100ADBC3C /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84FC7D1FFB169100ADBC3C /* RequestFactory.swift */; };
+		3A84FC801FFB16A200ADBC3C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84FC7F1FFB16A200ADBC3C /* Service.swift */; };
+		3A84FC821FFB16C800ADBC3C /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84FC811FFB16C800ADBC3C /* BaseService.swift */; };
+		3A84FC841FFB28E600ADBC3C /* AssetTableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A84FC831FFB28E600ADBC3C /* AssetTableTableViewCell.xib */; };
+		3A84FC861FFB294100ADBC3C /* AssetTableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84FC851FFB294100ADBC3C /* AssetTableTableViewCell.swift */; };
 		3AFADE601FFAEC2100CFF85E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFADE5F1FFAEC2100CFF85E /* AppDelegate.swift */; };
 		3AFADE621FFAEC2100CFF85E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFADE611FFAEC2100CFF85E /* ViewController.swift */; };
 		3AFADE651FFAEC2100CFF85E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFADE631FFAEC2100CFF85E /* Main.storyboard */; };
 		3AFADE671FFAEC2100CFF85E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFADE661FFAEC2100CFF85E /* Assets.xcassets */; };
 		3AFADE6A1FFAEC2100CFF85E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFADE681FFAEC2100CFF85E /* LaunchScreen.storyboard */; };
+		AA8F48851533970C8C4A1E03 /* Pods_PhotoZigChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695CC489309E5ED72A22E5E5 /* Pods_PhotoZigChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A84FC711FFB0FD000ADBC3C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3A84FC731FFB0FE200ADBC3C /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		3A84FC771FFB15F600ADBC3C /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
+		3A84FC791FFB163300ADBC3C /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		3A84FC7B1FFB164400ADBC3C /* AssetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetViewModel.swift; sourceTree = "<group>"; };
+		3A84FC7D1FFB169100ADBC3C /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
+		3A84FC7F1FFB16A200ADBC3C /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		3A84FC811FFB16C800ADBC3C /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		3A84FC831FFB28E600ADBC3C /* AssetTableTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssetTableTableViewCell.xib; sourceTree = "<group>"; };
+		3A84FC851FFB294100ADBC3C /* AssetTableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTableTableViewCell.swift; sourceTree = "<group>"; };
 		3AFADE5C1FFAEC2100CFF85E /* PhotoZigChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoZigChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFADE5F1FFAEC2100CFF85E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AFADE611FFAEC2100CFF85E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,9 @@
 		3AFADE661FFAEC2100CFF85E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AFADE691FFAEC2100CFF85E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AFADE6B1FFAEC2100CFF85E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		695CC489309E5ED72A22E5E5 /* Pods_PhotoZigChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoZigChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9733C49CAEAD3E992CF3589D /* Pods-PhotoZigChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoZigChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoZigChallenge/Pods-PhotoZigChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		D9AE31C0625225E56B433FEA /* Pods-PhotoZigChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoZigChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoZigChallenge/Pods-PhotoZigChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8F48851533970C8C4A1E03 /* Pods_PhotoZigChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A84FC701FFB0FAF00ADBC3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AFADE611FFAEC2100CFF85E /* ViewController.swift */,
+				3A84FC711FFB0FD000ADBC3C /* DetailViewController.swift */,
+				3A84FC731FFB0FE200ADBC3C /* PageViewController.swift */,
+				3A84FC851FFB294100ADBC3C /* AssetTableTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A84FC751FFB158D00ADBC3C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3A84FC7D1FFB169100ADBC3C /* RequestFactory.swift */,
+				3A84FC7F1FFB16A200ADBC3C /* Service.swift */,
+				3A84FC811FFB16C800ADBC3C /* BaseService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3A84FC761FFB159700ADBC3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A84FC791FFB163300ADBC3C /* Assets.swift */,
+				3A84FC7B1FFB164400ADBC3C /* AssetViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3AFADE531FFAEC2100CFF85E = {
 			isa = PBXGroup;
 			children = (
 				3AFADE5E1FFAEC2100CFF85E /* PhotoZigChallenge */,
 				3AFADE5D1FFAEC2100CFF85E /* Products */,
+				85997E9F735FCBB4A97DA19A /* Pods */,
+				D0A690692B462A35CD3F0D75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +111,35 @@
 		3AFADE5E1FFAEC2100CFF85E /* PhotoZigChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				3A84FC761FFB159700ADBC3C /* Model */,
+				3A84FC751FFB158D00ADBC3C /* Service */,
+				3A84FC701FFB0FAF00ADBC3C /* View */,
 				3AFADE5F1FFAEC2100CFF85E /* AppDelegate.swift */,
-				3AFADE611FFAEC2100CFF85E /* ViewController.swift */,
 				3AFADE631FFAEC2100CFF85E /* Main.storyboard */,
 				3AFADE661FFAEC2100CFF85E /* Assets.xcassets */,
 				3AFADE681FFAEC2100CFF85E /* LaunchScreen.storyboard */,
 				3AFADE6B1FFAEC2100CFF85E /* Info.plist */,
+				3A84FC771FFB15F600ADBC3C /* ResponseType.swift */,
+				3A84FC831FFB28E600ADBC3C /* AssetTableTableViewCell.xib */,
 			);
 			path = PhotoZigChallenge;
+			sourceTree = "<group>";
+		};
+		85997E9F735FCBB4A97DA19A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9733C49CAEAD3E992CF3589D /* Pods-PhotoZigChallenge.debug.xcconfig */,
+				D9AE31C0625225E56B433FEA /* Pods-PhotoZigChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D0A690692B462A35CD3F0D75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				695CC489309E5ED72A22E5E5 /* Pods_PhotoZigChallenge.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AFADE6E1FFAEC2100CFF85E /* Build configuration list for PBXNativeTarget "PhotoZigChallenge" */;
 			buildPhases = (
+				D18A1FA0774FA12FEC4FDD39 /* [CP] Check Pods Manifest.lock */,
 				3AFADE581FFAEC2100CFF85E /* Sources */,
 				3AFADE591FFAEC2100CFF85E /* Frameworks */,
 				3AFADE5A1FFAEC2100CFF85E /* Resources */,
+				DA76459DAC5C91DE8B454B81 /* [CP] Embed Pods Frameworks */,
+				B424FFBADA48047E91449C59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,18 +207,94 @@
 				3AFADE6A1FFAEC2100CFF85E /* LaunchScreen.storyboard in Resources */,
 				3AFADE671FFAEC2100CFF85E /* Assets.xcassets in Resources */,
 				3AFADE651FFAEC2100CFF85E /* Main.storyboard in Resources */,
+				3A84FC841FFB28E600ADBC3C /* AssetTableTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B424FFBADA48047E91449C59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoZigChallenge/Pods-PhotoZigChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D18A1FA0774FA12FEC4FDD39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoZigChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA76459DAC5C91DE8B454B81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PhotoZigChallenge/Pods-PhotoZigChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoZigChallenge/Pods-PhotoZigChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3AFADE581FFAEC2100CFF85E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A84FC7E1FFB169100ADBC3C /* RequestFactory.swift in Sources */,
+				3A84FC721FFB0FD000ADBC3C /* DetailViewController.swift in Sources */,
+				3A84FC861FFB294100ADBC3C /* AssetTableTableViewCell.swift in Sources */,
 				3AFADE621FFAEC2100CFF85E /* ViewController.swift in Sources */,
+				3A84FC7A1FFB163300ADBC3C /* Assets.swift in Sources */,
 				3AFADE601FFAEC2100CFF85E /* AppDelegate.swift in Sources */,
+				3A84FC801FFB16A200ADBC3C /* Service.swift in Sources */,
+				3A84FC741FFB0FE200ADBC3C /* PageViewController.swift in Sources */,
+				3A84FC781FFB15F600ADBC3C /* ResponseType.swift in Sources */,
+				3A84FC821FFB16C800ADBC3C /* BaseService.swift in Sources */,
+				3A84FC7C1FFB164400ADBC3C /* AssetViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +429,13 @@
 		};
 		3AFADE6F1FFAEC2100CFF85E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9733C49CAEAD3E992CF3589D /* Pods-PhotoZigChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7R5DW23MV;
 				INFOPLIST_FILE = PhotoZigChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devpaulopereira.PhotoZigChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +446,13 @@
 		};
 		3AFADE701FFAEC2100CFF85E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9AE31C0625225E56B433FEA /* Pods-PhotoZigChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7R5DW23MV;
 				INFOPLIST_FILE = PhotoZigChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devpaulopereira.PhotoZigChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
