@@ -1,4 +1,4 @@
-# Product Name
+# PhotoZigChallenge
 > SwiftChallenge for PhotoZig iOS Developer 
 
 [![Swift Version][swift-image]][swift-url]
